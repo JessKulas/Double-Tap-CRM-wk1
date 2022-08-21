@@ -1,0 +1,103 @@
+* {box-sizing: border-box;}
+
+.sign-up {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-left: 250px;
+    margin-top: 85px;
+}
+
+/* Style the input container */
+/* .input-container {
+  border-radius: 30px;
+  display: flex;
+  max-width: fit-content;
+  margin-left: 50px;
+  width: 100%;
+  margin-bottom: 15px;
+} */
+
+.input-container {
+    position: relative;
+    padding: 15px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 18px;
+    border-radius: 30px;
+    margin-left: 200px;
+   
+}
+
+.input-container img {
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    width: 15px;
+    margin-left: 220px;
+}
+
+.home {
+    display: flex;
+}
+
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: rgb(35, 19, 252);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    max-width: 200px;
+    width: 100%;
+    margin-left: 340px;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/* END BUTTON STYLE */
+
+
+/* START PLATFORMS */
+.platforms {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-left: 350px;
+}
+
+/* END PLATFORMS */
+
+/* START IMAGE HERE */
+.image {
+    display: block;
+    margin-left: 250px;
+    margin-top: 75px;
+}
+
+/* END IMGAGE HERE */
+
+
+.social {
+   margin-left: 250px;
+   bottom: 375px;
+   padding: 10px;
+   z-index: -1;
+}
+
+.social img {
+    position: relative;
+    z-index: 1;
+    margin-top: 75px;
+}
