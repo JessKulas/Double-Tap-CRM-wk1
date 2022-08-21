@@ -1,0 +1,71 @@
+body {
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+.input-group{
+    padding: 40px 0;
+}
+.input-group-text {
+    border-radius: 140px;
+    padding: 0 8px;
+    align-items: center;
+}
+.form-control {
+    border-radius: 140px;
+    padding: 10px 0;
+
+}
+
+.start {
+    margin-top: 30px;
+}
+.sign-in{
+    
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.button-1{
+    margin-top: 30px;
+}
+.btn {
+    border-radius: 140px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    background: #0850f8;
+    color: #ffffff;
+    
+}
+
+
+.btn-blue{
+    border-color: #ffffff;
+}
+
+.signup {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.new-account {
+    color: #ffffff;
+
+
+}
+
+.new-account h6 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
